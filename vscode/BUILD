@@ -30,6 +30,7 @@ sh_binary(
     srcs = ["run.sh"],
     data = [
         ":language-configuration.json",
+        ":dataform_logo.png",
         ":package.json",
         ":sqlx.grammar.json",
         ":vscode-sources",

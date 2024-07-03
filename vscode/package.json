@@ -57,7 +57,11 @@
         "extensions": [
           ".sqlx"
         ],
-        "configuration": "language-configuration.json"
+        "configuration": "language-configuration.json",
+        "icon": {
+          "light": "./dataform_logo.png",
+          "dark": "./dataform_logo.png"
+        }
       }
     ],
     "grammars": [
