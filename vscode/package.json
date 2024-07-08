@@ -67,5 +67,9 @@
         "path": "sqlx.grammar.json"
       }
     ]
+  },
+  "devDependencies": {
+    "@vscode/test-cli": "^0.0.9",
+    "@vscode/test-electron": "^2.4.1"
   }
 }

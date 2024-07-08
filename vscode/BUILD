@@ -4,7 +4,7 @@ package(default_visibility = ["//visibility:public"])
 
 ts_library(
     name = "vscode",
-    srcs = glob(["**/*.ts"]),
+    srcs = glob(["**/*.ts"], exclude = ["test/*.ts"]),
     deps = [
         "//cli/api",
         "//protos:ts",

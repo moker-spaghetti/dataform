@@ -1,0 +1,1 @@
+node $PWD/vscode/test/runTest.mjs
